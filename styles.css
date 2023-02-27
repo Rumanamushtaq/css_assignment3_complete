@@ -1,0 +1,159 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing:border-box;
+}
+.container{
+    width:100%;
+    max-width:1200px;
+    margin:0, auto;
+}
+header{
+display:flex;
+justify-content: space-between;
+padding:30px 0;
+
+} 
+header ul{
+    list-style:none;
+    display:flex;
+    align-items:left;
+
+}
+
+a{
+    text-decoration:none;
+    margin-left:25px;
+
+}
+a:visited{
+    color:gray;
+
+}
+
+a:hover{
+    text-decoration:underline;
+    color:black;
+}
+.content-section{
+    display:flex;
+    justify-content: space-between;
+
+}
+
+.hero-section{
+    width:100%;
+
+}
+.hero-section-img{
+    width:60%;
+}
+.hero-content{
+    display:flex;
+}
+.headline{
+    width:30%;
+    font-size: 2rem;
+    line-height:3rem;
+    letter-spacing:1px;
+    margin-top:20px;
+}
+.description{
+    width:25%;
+    color:grey;
+    margin-top:20px;
+}
+
+button{
+    background-color:tomato;
+    border:none;
+    padding:14px 28px;
+    text-transform:uppercase;
+    cursor:pointer;
+    letter-spacing:2px;
+    color:white;
+    margin-top:15px;
+}
+button:hover{
+    background-color:rgb(250, 42, 5);
+}
+.new-section{
+    width:25%;
+    padding:5px;
+    flex:right;
+   
+    display: inline-block;
+    background-color:black;
+    color:white;
+}
+.new-section > h3{
+    color:orange;
+    font-family: 'Inter', sans-serif;
+}
+.new-sub-section{
+    padding:30px 0;
+
+
+}
+.new-sub-section h2{
+    margin-bottom: 10px;
+}
+.new-sub-section p{
+    color:grey;
+
+}
+.new-sub-section h3:hover {
+    text-decoration:underline;
+    cursor:pointer;
+
+}
+.details{
+    padding:0,auto;
+    margin:10px;
+    
+}
+
+
+
+/*.W{
+    font-size:25px;
+    width:10%;
+    margin:0, auto;
+    padding:0, 10;
+    display:inline-block;
+    flex:left;
+}
+.options{
+    
+}
+.web-image{
+    width:60%;
+    height:200px;
+    padding:10px, 10px; 
+    margin:10px, 10px, 10px, 0px;
+    float:left;
+}
+
+.New{
+    background-color:rgba(0,0,26,255);
+    color:white;
+    flex:right;
+    width:25%;
+    height:500px;
+    margin:0 auto;
+}
+.Bright-future{
+    flex:right;
+    color:black;
+    width:30%;
+    display:inline-block;
+    font-size:20px;
+}
+*/
+
+.We-dive{
+    font-size:10px;
+}
+span{
+    display:inline-block;
+}
